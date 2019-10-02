@@ -1,0 +1,324 @@
+
+		@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+		body{
+			background-image: url("imagens/abstrato.jpg");
+		}
+
+		.all{
+			background-image: url("imagens/abstrato.jpg");
+		}
+
+		.bodytest{
+				font-family: 'Indie Flower', cursive;
+				background-image: url("imagens/abstrato.jpg");
+		}
+
+		.menu ul li{
+			display: inline;
+			background-color: #A9A9A9;
+			color: #B22222;
+			float: left;
+			width: 200px;
+			height: 40px;
+			text-align: center;
+			line-height: 40px;
+			font-size: 20px;
+			position: relative;
+			font-family: 'Indie Flower', cursive;
+			z-index: 99;
+		}
+		.menu ul li:hover{
+			background-color: grey;
+		}
+		.menu ul {
+			padding: 0px ;
+			font-family: 'Indie Flower', cursive;
+			z-index: 99;
+		}
+		.menu ul ul{
+			display: none;
+			font-family: 'Indie Flower', cursive;
+		}
+		.menu ul li:hover > ul{
+			display: block;
+		}
+		.menu ul ul ul{
+			margin-left: 201px;
+			top: 0px;
+			position: absolute;
+			font-family: 'Indie Flower', cursive;
+		}
+		.menu ul ul li:hover{
+			background-color: grey;
+			font-family: 'Indie Flower', cursive;
+		}
+		.menu ul ul ul li:hover{
+			background-color: grey;
+			font-family: 'Indie Flower', cursive;
+		}
+		.menu a{
+			color: #B22222;
+			text-decoration: none;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		#tabela tr:nth-child(even){
+				background-color: #FA8072;
+				font-family: 'Indie Flower', cursive;
+		}
+
+		.divtabela{
+			overflow-x: scroll;
+		}
+		#tabela{
+			background-color: #F5F5DC;
+			border: 1px solid #606060;
+			border-spacing: 0px;
+			font-family: 'Indie Flower', cursive;
+
+		}
+
+		#tabela th{
+			background-color: #FF0000;
+			border: 1px solid #606060;
+			padding: 10px;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		#tabela td{
+			border: 1px solid #606060;
+			padding: 10px;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		#tabela caption{
+			color: #B22222;
+			font-size: 30px;
+			font-weight: bolder;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		#tabela caption span{
+			display: block;
+			float: right;
+			font-size: 20px;
+			color: #000000;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		#page ul a li{
+			color: #B22222;
+			text-decoration: none;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		#link a:link {text-decoration: none;
+			text-decoration: none;
+			text-transform: none;
+			font-family: 'Indie Flower', cursive;
+		}
+		#link a:visited {
+			text-decoration: none;
+			text-transform: none;
+			font-family: 'Indie Flower', cursive;
+		}
+		#link a:active {
+			text-decoration: none;
+			text-transform: none;
+			font-family: 'Indie Flower', cursive;
+		}
+		#link a:hover {
+			text-decoration: none;
+			text-transform: none;
+				font-family: 'Indie Flower', cursive;
+		}
+
+		#divBusca{
+			background-color:#2F4F4F;
+			border:solid 1px;
+			border-radius:15px;
+			width:300px;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		#txtBusca{
+			float:left;
+			background-color:transparent;
+			padding-left:5px;
+			font-style:italic;
+			font-size:18px;
+			border:none;
+			height:32px;
+			width:260px;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		img.seloco {
+		    float: left;
+		    border: transparent thin solid;
+		    padding: 5px;
+		    margin: 0px 10px 10px 0;
+		    max-width: 186px;
+				font-family: 'Indie Flower', cursive;
+		}
+
+		header#cabeça div {
+			font-size: 40px;
+			color: #B22222;
+			font-family: 'Indie Flower', cursive;
+			text-align: center;
+		}
+
+		h2#titulo2 {
+			position: relative;
+			padding: 10px;
+			text-align: left;
+			font-family: 'Indie Flower', cursive;
+			font-size: 30px;
+			color: black;
+		}
+
+		p#pInicio {
+			text-align: left;
+			font-family: 'Indie Flower', cursive;
+			font-size: 18px;
+			color: black;
+		}
+
+		#ultipos a{
+			font-size: 18px;
+			color: black;
+			text-shadow: 1px 1px;
+			text-decoration: none;
+		}
+
+		#ultipos a:visited{
+			font-size: 18px;
+			color: black;
+			text-shadow: 1px 1px;
+			text-decoration: none;
+		}
+
+		#textodiv {
+			font-family: 'Indie Flower', cursive;
+			font-size: 20px;
+			color: black;
+			margin-left: 1px;
+			font-weight: bold;
+			margin-right: 1px;
+			text-shadow: 1px 1px;
+		}
+
+		#textodiv h2 a{
+			color: red;
+			text-decoration: none;
+			font-family: 'Indie Flower', cursive;
+
+		}
+
+		#textodiv h2 a:hover{
+			color: #660000;
+			text-decoration: none;
+			font-family: 'Indie Flower', cursive;
+
+		}
+
+		main#MainP div {
+			padding-top: 1px;
+			color: black;
+			font-size: 20px;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		main#MainP div img {
+			width: 200px;
+			height: 200px;
+			clear: both;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		main#MainP div p{
+			overflow: auto;
+			font-family: 'Indie Flower', cursive;
+		}
+
+
+		.container {
+			  width: 50%;
+			  margin: 0 auto;
+		}
+
+		.form-contact {
+			  width: 100%;
+		}
+
+		.form-contact-input {
+			  width: 100%;
+			  color: #292929;
+			  font-size: 18px;
+			  background-color: #E9E9E9;
+			  border: 1px solid #E9E9E9;
+			  -moz-border-radius: 5px;
+			  -webkit-border-radius: 5px;
+			  border-radius: 5px;
+			  height: 40px;
+			  margin-bottom: 20px;
+			  border-bottom: 1px solid #ccc;
+			  border-left: 1px solid #ccc;
+			  text-indent: 20px;
+		}
+
+		.form-contact-textarea {
+			  width: 100%;
+			  color: #292929;
+			  font-size: 18px;
+			  background-color: #E9E9E9;
+			  border: 1px solid #E9E9E9;
+			  -moz-border-radius: 5px;
+			  -webkit-border-radius: 5px;
+			  border-radius: 5px;
+			  height: 200px;
+			  margin-bottom: 20px;
+			  border-bottom: 1px solid #ccc;
+			  border-left: 1px solid #ccc;
+			  text-indent: 20px;
+			  padding-top: 16px;
+			  padding-left: 0;
+			  padding-right: 0;
+		}
+
+		.form-contact-button {
+			  width: 100%;
+			  font-size: 18px;
+			  border-radius: 4px;
+			  color: #fff;
+			  height: 40px;
+			  opacity: .8;
+			  margin-bottom: 20px;
+			  cursor: pointer;
+			  background: #B22222;
+			  display: block;
+			  border: none;
+			  border-bottom: 1px solid #500707;
+			  border-right: 1px solid #500707;
+			  transition: 1s;
+		}
+
+		.form-contact-button:hover {
+			  opacity: 2;
+		}
+
+		.footer{
+			color: black;
+			font-size: 18px;
+			text-align: right;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		.footer sub {
+			color: black;
+			font-size: 18px;
+			text-align: right;
+			font-family: 'Indie Flower', cursive;
+		}
