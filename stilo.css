@@ -1,6 +1,92 @@
 
 		@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
+
+/* RESET BASICO */
+
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+				 -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+		}
+
+		.containerGrid {
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 0 20px;
+		}
+
+			@media (min-width: 1200px) {
+				.containerGrid{
+						max-width: 1200px;
+						padding: 0;
+				}
+			}
+
+/* LINHA */
+
+		.row {
+			margin-left: -5px;
+			margin-right: -5px;
+		}
+
+		.row:before,
+		.row:after {
+			content: "";
+			display: both;
+		}
+		.row:after {
+			clear: both;
+		}
+
+/* COLUNAS */
+
+.coluna {
+	 display: inline-block;
+	 vertical-align: top;
+	 min-height: 1px;
+	 padding-left: 5px;
+	 padding-right: 5px;
+	 width: 100%;
+	 margin-right: -4px;
+	 *zoom: 1;
+	 *display: inline;
+ }
+
+/* DUAS COLUNAS */
+		@media (min-width: 480px){
+			.coluna2{
+				width: 50%;
+			}
+		}
+
+/* TRES COLUNAS */
+		@media (min-width: 720px){
+			.coluna3{
+				width: 33.3333%;
+			}
+		}
+
+/* SIDEBAR */
+@media (min-width: 992px){
+		.coluna-content{
+				width: 60%;
+		}
+		.coluna-sidebar{
+				width: 40%;
+		}
+}
+
+
+
+
+
+
+/* CODIGO ANTERIOR */
+
 		body{
 			background-image: url("imagens/abstrato.jpg");
 		}
