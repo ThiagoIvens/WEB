@@ -108,20 +108,56 @@
 
 
 
-		<div class="container-fluid">
-			<h2 class="display-4">Quem Somos?</h2>
+			<div class="container-fluid">
+				<h2 class="display-4">Quem Somos?</h2>
 
-			<p class="text-info"><strong>
-				A Perfumolatras, é um site de com informações de Perfumes para os amantes do mesmo!
-			</strong></p>
-			<button type="button" class="btn btn-info">Saiba mais!</button>
-		</div>
+				<p class="text-info"><strong>
+					A Perfumolatras, é um site de com informações de Perfumes para os amantes do mesmo!
+				</strong></p>
+				<!-- Button to Open the Modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+					Saiba Mais!
+				</button>
+
+				<!-- The Modal -->
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h4 class="modal-title">Criadores</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<!-- Modal body -->
+							<div class="modal-body">
+								<div class="col-sm-2">
+									Thiago
+								</div>
+								<div class="col-sm-2">
+									Rojie
+								</div>
+							</div>
+
+							<!-- Modal footer -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar!</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
 		<div class="col">
 			<h2 class="display-4" >Qual o objetivo da pagina?</h2>
 
 			<p class="text-info"><strong>Trazer para você tudo sobre os melhores perfumes encontrados hoje no mercado de fragrâncias!</strong></p>
 		</div>
 	<br>
+
+
 
 	</main>
 
@@ -138,6 +174,13 @@
 	</p>
 	<footer class="footer">Thiago Ivens Rech</footer>
 
+
+
+	<script>
+		$(document).ready(function(){
+		  $('[data-toggle="popover"]').popover();
+		});
+	</script>
 
 
 
